@@ -31,6 +31,6 @@ Refer [config file section](https://www.preemptive.com/defenderforios/standard/u
 
 ## Summary of the EasyPayments Sample
 
-In order to obfuscate an application that exchanges serialized objects with external applications, you need to make sure that the appropriate data elements are excluded from the renaming process.
-Dotfuscator provides extremely powerful mechanism for defining these exclusion rules.
-By following these guidelines, you can help ensure that your obfuscated application can safely exchange data with non-obfuscated applications with ease.
+In order to successfully build and run obfuscated application developer need to make sure that some items are excluded from the renaming process.
+Defender for iOS provides mechanisms for defining these exclusion rules through `<exclude>` and `<filter>` YAML config file or command line arguments.
+By using [prepare_name_exclusion_list.sh](https://www.preemptive.com/defenderforios/standard/userguide/en/usage_tips_exclusion_list.html) script available in tool installation folder, developer can automatically extract names that prevent project build.
