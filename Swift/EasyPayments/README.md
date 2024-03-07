@@ -19,8 +19,8 @@ The EasyPayments sample contains a sample Defender for iOS config file that demo
 This file is named **config.yaml** and can be located in the same directory as the EasyPayments sample.
 The section of the file that excludes these references is:
 
-renaming:
-  exclude: [window,SceneDelegate,saveContext]
+    renaming:
+      exclude: [window,SceneDelegate,saveContext]
 
 
 The `<renaming>` tag indicates that the exclusion rules contained within pertain specifically to identifier renaming, as opposed to other Dotfuscator features which can also be selectively turned on or off.
