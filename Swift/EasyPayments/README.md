@@ -13,7 +13,7 @@ The EasyPayments sample can be built from Xcode.
 
 ## Obfuscating EasyPayments Sample
 
-defenderForIos -c ./config.yaml --license '[<key>:<email>](https://www.preemptive.com/defenderforios/standard/userguide/en/introduction_licensing.html)' --build-scheme EasyPayments EasyPayments.xcodeproj
+defenderForIos -c ./config.yaml --license '[`<key>:<email>`](https://www.preemptive.com/defenderforios/standard/userguide/en/introduction_licensing.html)' --build-scheme EasyPayments EasyPayments.xcodeproj
 
 The EasyPayments sample contains a sample Defender for iOS config file that demonstrates using exclusion rules to exclude classes that prevent successful build and runtime execution of the obfuscated app.
 This file is named **config.yaml** and can be located in the same directory as the EasyPayments sample.
