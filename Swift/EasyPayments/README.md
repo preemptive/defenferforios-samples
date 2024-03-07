@@ -23,11 +23,11 @@ The section of the file that excludes these references is:
       exclude: [window,SceneDelegate,saveContext]
 
 
-The `<renaming>` tag indicates that the exclusion rules contained within pertain specifically to identifier renaming, as opposed to other Dotfuscator features which can also be selectively turned on or off.
+The `<renaming>` tag is used to configure renaming feature.
 
-The `<excludelist>` tag defines a list of items that must be excluded from the renaming process.
+The `<exclude>` tag defines a list of items that must be excluded from the renaming process.
 
-https://www.preemptive.com/defenderforios/standard/userguide/en/cli_config_file.html
+Refer [config file section](https://www.preemptive.com/defenderforios/standard/userguide/en/cli_config_file.html) for more details.
 
 ## Summary of the EasyPayments Sample
 
