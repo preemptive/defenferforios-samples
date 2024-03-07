@@ -7,6 +7,6 @@ For sample-specific instructions, refer to the the README in each sample's direc
 ## Samples in this repo
 
 The following samples are available in this repo:
-* [EasyPayments](EasyPayments/README.md) demonstrates using Defender for iOS on Swift application with Storyboard and Core Data.
+* [Swift/EasyPayments](Swift/EasyPayments/README.md) demonstrates using Defender for iOS on Swift application with Storyboard and Core Data.
 
 This repo has tags that correspond to the earliest Defender for iOS version number the samples are compatible with. 
