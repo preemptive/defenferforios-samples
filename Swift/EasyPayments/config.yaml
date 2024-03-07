@@ -1,0 +1,36 @@
+# Config file for PreEmptive iOSDefender
+#
+# This file should be placed in the iOSDefender root directory
+# or targeted using --config={File Path} via the command line
+
+output:
+  # Specify the path the new, protected IPA file should be placed
+  # Default value: ~/PreEmptive/
+  dir:  ~/PreEmptive/
+
+log:
+  file:
+    # Specify the path where log files should be written
+    # Default value: ~/PreEmptive/log/
+    dir:  ~/PreEmptive/log/
+
+    # Specify the level of file logging
+    # 0 - Disable
+    # 1 - General (Default) - Error messages and major task statuses
+    # 2 - Information - Include information about files during processing
+    # 3 - Debug - Include information about file contents during processing
+    level: 1
+
+renaming:
+  exclude: [window,SceneDelegate,saveContext]
+
+#license:
+  # Specify the License key with or without email
+  #key:  
+
+#Specify code signing options (optional)
+#
+# signing:
+#  identity: iPhone Distribution
+#  provision: My Custom App.mobileprovision
+
