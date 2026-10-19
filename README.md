@@ -1,12 +1,9 @@
-# PreEmptive Defender for iOS Samples
+# defenferforios-samples
 
-This repo contains samples that demonstrate configuring [PreEmptive Defender for iOS](https://www.preemptive.com/products/defender-for-ios/) for various types of iOS applications. 
-The samples in this repo are each organized into their own directory.
-For sample-specific instructions, refer to the the README in each sample's directory.
+> **This repository has moved to a new public location.**
 
-## Samples in this repo
+The source code for this project is now maintained at:
 
-The following samples are available in this repo:
-* [Swift/EasyPayments](Swift/EasyPayments) demonstrates using Defender for iOS on Swift application with Storyboard and Core Data.
+## [https://github.com/sembi-oss/defenferforios-samples](https://github.com/sembi-oss/defenferforios-samples)
 
-This repo has tags that correspond to the earliest Defender for iOS version number the samples are compatible with. 
+Please update your bookmarks, forks, and any references to point to the new address.
